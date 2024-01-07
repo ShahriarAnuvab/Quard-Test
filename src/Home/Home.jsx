@@ -16,8 +16,8 @@ const Home = () => {
     }
   
     axios.get("http://www.api.technicaltest.quadtheoryltd.com/api/Item?page=1&pageSize=10")
-      .then((response) => {
-        const apiData = response.data;
+      .then((data) => {
+        const apiData = data.data.Items;
         const newData = [...apiData, item];
   
         setData(newData);
@@ -29,7 +29,7 @@ const Home = () => {
   }, [item]);
 
   
-  
+  console.log(data)
 
   console.log(data)
 
