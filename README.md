@@ -2,13 +2,12 @@
 
 **Quard Theory Ltd.**
 
-Brief description of your project.
 
 ## Table of Contents
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Acknowledgements](#acknowledgements)
+
 
 ## Overview
 
@@ -38,3 +37,4 @@ yarn install
 npm run dev
 # or
 yarn dev
+
