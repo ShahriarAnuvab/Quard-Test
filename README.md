@@ -26,7 +26,6 @@ Open [http://localhost:5173/](http://localhost:5173/) with your browser to see t
 
 ## Technologies Used
 
-Outline the technologies, frameworks, or libraries used in your project.
 
 - Node.js
 - Tailwind CSS
