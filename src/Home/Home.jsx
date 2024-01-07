@@ -10,24 +10,14 @@ const Home = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  // useEffect(() => {
-  //   axios
-  //     .get(
-  //       "http://www.api.technicaltest.quadtheoryltd.com/api/Item?page=1&pageSize=10"
-  //     )
-  //     .then((data) => {
-  //       setData(data.data.Items);
-  //       setIsLoading(true);
-  //     });
-  // }, []);
   useEffect(() => {
     if (!item) {
-      return; // If item is undefined or null, do nothing
+      return; 
     }
   
-    fetch("https://server-teal-chi-52.vercel.app/data")
-      .then((response) => response.json())
-      .then((apiData) => {
+    axios.get("http://www.api.technicaltest.quadtheoryltd.com/api/Item?page=1&pageSize=10")
+      .then((response) => {
+        const apiData = response.data;
         const newData = [...apiData, item];
   
         setData(newData);
@@ -37,6 +27,7 @@ const Home = () => {
         console.error("Error fetching data:", error);
       });
   }, [item]);
+
   
   
 
