@@ -4,6 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import MenuItems from "../Shared/MenuItems";
 import { DataContext } from "../Provider/Provider";
 
+
 const Home = () => {
   const { item } = useContext(DataContext);
   console.log(item);
@@ -39,6 +40,7 @@ const Home = () => {
 
   return (
     <div>
+
       <Banner></Banner>
       <div>
         {isLoading ? (
