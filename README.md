@@ -2,7 +2,7 @@
 
 **Quard Theory Ltd.**
 
-[Live Linkl(https://659a96effd300785f190d5bb--stately-peony-aac5d5.netlify.app/)
+[Live_Linkl(https://659a96effd300785f190d5bb--stately-peony-aac5d5.netlify.app/)
 ## Table of Contents
 - [Overview](#overview)
 - [Technologies Used](#technologies-used)
