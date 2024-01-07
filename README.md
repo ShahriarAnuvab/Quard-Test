@@ -1,8 +1,42 @@
-# React + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Quard Theory Ltd.**
 
-Currently, two official plugins are available:
+[Live_Link](https://659a96effd300785f190d5bb--stately-peony-aac5d5.netlify.app/)
+## Table of Contents
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Overview
+
+This is a [Node.js](https://nodejs.org/) project with Tailwind using [Vite - Next Generation Frontend Tooling](https://vitejs.dev/).
+
+## Technologies Used
+
+Outline the technologies, frameworks, or libraries used in your project.
+
+- Node.js
+- Tailwind CSS
+- DaisyUI
+- Vite
+- React Router
+
+## Getting Started
+
+Provide instructions on how to get the project up and running on a local machine. Include steps for installation, configuration, and starting the development server.
+Open[http://localhost:5173](http://localhost:5173/) with your browser to see the result.
+```bash
+# Installation
+npm install
+# or
+yarn install
+
+# Start the development server
+npm run dev
+# or
+yarn dev
+
+
+
